@@ -5,7 +5,7 @@ import re
 def mapper():
 	reader=csv.reader(sys.stdin, delimiter=',')
 	headers = next(reader,None)
-	name = "America"
+	name = "terrorist"
 	for line in reader:
 		if len(line)==3:
 			date = line[0]
